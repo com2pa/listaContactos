@@ -1,0 +1,456 @@
+@media  (min-width:320px){
+    main {
+        
+        color: white;
+    }
+    form{
+        margin: 3% 0;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3px;
+        gap: 10px;
+    }
+    input#input-name {
+        height: 1rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid  red;
+        color: black;
+
+    }
+    input#input-number {
+        height: 1rem;
+        background-color: antiquewhite;
+        color: black;
+    }
+    .info{
+        font-size: 0.75rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    label {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+   form-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        
+    }
+    /* button#form-btn {
+        background-color: green;
+    } */
+    #list{
+        padding-left: 0;
+    }
+    ul{
+        overflow: scroll;
+        min-height: 5rem;
+        max-height: 15rem;
+        background-color: rgba(38, 40, 109, 0.856);
+        border: 1px solid rgba(38, 40, 109, 0.856);
+        border-radius: 10px;
+    }
+
+    li{
+        border: 1px solid rgb(235, 230, 230);
+        border-radius: 7px;
+        display: flex;
+        gap:0.45rem;
+        width: 98%;
+        justify-content: space-between;
+    }
+    .delete-btn > .delete-icon {
+        color: white
+       
+    }
+    .delete-btn{
+        background-color: red;
+    }
+
+    .edit-btn > .edit-icon {
+        color: white;
+        
+      }
+      .edit-btn {
+        background-color: green;
+      }
+    
+}
+
+@media (min-width:375px){
+    form{
+        margin: 3% 0;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    input#input-name {
+        height: 1rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid  red;
+        color: black;
+
+    }
+    input#input-number {
+        height: 1rem;
+        background-color: antiquewhite;
+        color: black;
+    }
+    .info{
+        font-size: 0.75rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    form-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        
+    }
+    label {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap:0.40rem;
+    }  
+    .delete-btn > .delete-icon {
+        color: white
+       
+    }
+    .delete-btn{
+        background-color: red;
+    }
+
+    .edit-btn > .edit-icon {
+        color: white;
+        
+      }
+      .edit-btn {
+        background-color: green;
+      }
+
+}
+
+@media (min-width:425px){
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    input#input-name {
+        height: 1rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid  red;
+        color: black;
+
+    }
+    input#input-number {
+        height: 1rem;
+        background-color: antiquewhite;
+        color: black;
+    }
+    .info{
+        font-size: 0.75rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    form {
+        margin: 3% 0;
+    }
+    #form-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+    ul {
+        overflow: scroll;
+        min-height: 5rem;
+        max-height: 15rem;
+        background-color: rgba(38, 40, 109, 0.856);
+        border: 1px solid rgba(38, 40, 109, 0.856);
+        border-radius: 10px;
+        margin: 4%;
+    }
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+    }  
+
+}
+
+@media (min-width:768px){
+    form#form {
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    input#input-name {
+        height: 1.5rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid  red;
+        color: black;
+
+    }
+    input#input-number {
+        height: 1.5rem;
+        background-color: antiquewhite;
+        color: black;
+    }
+    .info{
+        font-size: 1rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    #form-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        align-items: center; 
+    } 
+    
+    ul{
+        overflow-y: scroll;
+        min-height: 5rem;
+        max-height: 15rem;
+        background-color: rgba(38, 40, 109, 0.856);
+        border: 1px solid rgba(38, 40, 109, 0.856);
+        border-radius: 10px;
+        width: 90%;
+        margin: 3% 5%;
+    }
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        gap: 0.30rem;
+    } 
+}
+@media (min-width:1024px){
+    
+    h1{
+        font-size: 2.7rem;
+    }
+    label {
+        font-size: 1.5rem;
+    }
+    input#input-name {
+        height: 1.5rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid red;
+        color: black;
+        width: 20rem;
+    }input#input-number {
+        height: 1.5rem;
+        background-color: antiquewhite;
+        border-radius: 10px solid red;
+        color: black;
+        width: 20rem;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    form#form {
+        width: 90%;
+        margin: 20px 5%;
+    }
+    .info {
+        font-size: 1.2rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    #form-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        align-items: center;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    ul{
+        width: 50%;
+        margin: 0 24%;
+        overflow-y: scroll;
+        min-height: 5rem;
+        max-height: 25rem;
+    }
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+    }  
+    .delete-btn > .delete-icon {
+        width: 1.3rem;
+        height: 1.3rem;
+        color: white;
+        
+      }
+      .delete-btn {
+        background-color: red;
+        
+      }
+      
+      .edit-btn > .edit-icon {
+        width: 1.3rem;
+        height: 1.3rem;
+        color: white;
+      }
+      .edit-btn{
+        background-color: green;
+      }
+      
+}
+@media (min-width:1440px){
+    main {
+        margin-top: 2%;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    label {
+        font-size: 2rem;
+    }
+    input#input-name {
+        height: 2rem;
+        font-size: 1.5rem;
+        color: black;
+    }
+    input#input-number {
+        height: 2rem;
+        font-size: 1.5rem;
+        color: black;
+
+    }
+    .info {
+        font-size: 1.8rem;
+        border: 1px solid wheat;
+        background-color: #46468b;
+    }
+    #form-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.9rem;
+        align-items: center;
+    }
+    ul{
+        width: 70%;
+        margin: 0 10%;
+        overflow-y: scroll;
+        min-height: 5rem;
+        max-height: 25rem;
+    }
+    li {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.9rem;
+    }
+
+    .delete-btn > .delete-icon {
+        width: 3rem;
+        height: 3rem;
+        
+      }
+      .edit-btn > .edit-icon {
+        width: 3rem;
+        height: 3rem;
+        
+      }
+      button.delete-btn {
+        width: 6%;
+        margin: 0px;
+    }
+    button.edit-btn {
+        width: 6%;
+        margin: 0px;
+    }
+}
+
+@media (min-width:2560px){
+    
+    h1 {
+        font-size: 8rem;
+    }
+    form#form{  
+        width: 90%;
+        /* display: flex; */
+        margin:3%;
+        
+    }
+    label {
+        font-size: 5rem;
+    }
+    div{
+        gap: 3rem;
+    }
+    input#input-name {
+        height: 5rem;
+        width:35%;
+        font-size: 2rem;
+    }
+    input#input-number {
+        height: 5rem;
+        width:35%;
+        font-size: 2rem;
+    }
+    #form-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5rem;
+        align-items: center;
+        width: 10%;
+        margin: 0 45%;
+        /* margin-top: 5rem; */
+    }
+    ul {
+        width: 79%;
+        margin: 0 10%;
+        overflow-y: scroll;
+        min-height: 5rem;
+        max-height: 60rem;
+    }
+    li {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 4rem;
+    }
+    .edit-btn > .edit-icon {
+        width: 6rem;
+        height: 6rem;
+    }
+    .delete-btn > .delete-icon {
+        width: 6rem;
+        height: 6rem;
+        
+      }
+
+}
